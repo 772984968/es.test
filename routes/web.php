@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('createIndex',"EsController@createIndex");
+Route::get('getIndex',"EsController@getIndex");
+Route::get('search',"EsController@search");
+Route::get('delete',"EsController@delete");
+Route::get('setting',"EsController@setting");
+
+
